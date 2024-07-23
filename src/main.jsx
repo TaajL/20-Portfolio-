@@ -1,3 +1,4 @@
+import ReactDOM from "react-dom/client"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // pages
@@ -11,29 +12,30 @@ import ResumePage from "./pages/ResumePage.jsx";
 // router
 const router = createBrowserRouter([
   {
-    path: "/",
+    Path: "/",
+    element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: 'about',
-        element: <AboutMePage />
-      },
-      {
-        path: 'portfolio',
-        element: <PortfolioPage />
-      },
-      {
-        path: 'contact',
-        element: <ContactPage />
-      },
-      {
-        path: 'resume',
-        element: <ResumePage />
-      }
+        {
+            index: true,
+            element: <HomePage />,
+        },
+        {
+            path: 'about',
+            element: <AboutMePage />
+        },
+        {
+            path: 'portfolio',
+            element: <PortfolioPage />
+        },
+        {
+            path: 'contact',
+            element: <ContactPage />
+        },
+        {
+            path: 'resume',
+            element: <ResumePage />
+        }
     ],
   },
 ]);
