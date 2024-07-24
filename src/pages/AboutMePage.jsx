@@ -1,8 +1,8 @@
-import TaajPhoto from "../../public /img/ProfessionalPhoto.jpg"
+import TaajPhoto from "../img/ProfessionalPhoto.jpg"
 export default function AboutMePage() {
     return (
       <section>
-        <h1>Here is the about me page</h1>
+        <h1>Meet Taaj</h1>
         <figure>
           <img src={TaajPhoto} alt="A picture of Taaj" />
           <figcaption>A picture of Taaj</figcaption>

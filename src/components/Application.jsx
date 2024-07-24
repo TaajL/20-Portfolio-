@@ -1,7 +1,7 @@
-const employeetracker = "/img/employeetracker.png";
-const codequiz =  "/img/codequiz.png";
-const forkyeah =  "/img/forkyeah.png";
-const topictarget =  "/img/topictarget.png";
+import  employeetracker from "../img/employeetracker.png";
+import codequiz from "../img/codequiz.png";
+import forkyeah from "../img/forkyeah.png";
+import topictarget from  "../img/topictarget.png";
 
 const applications = [
     {
