@@ -5,7 +5,6 @@ export default function Navigation() {
     <>
     <h1>Taaj Logan</h1>
     <nav>
-        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/resume">Resume</Link>
