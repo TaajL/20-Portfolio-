@@ -11,7 +11,7 @@ import ResumePage from "./pages/ResumePage.jsx";
 // router
 const router = createBrowserRouter([
   {
-    Path: "/",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
